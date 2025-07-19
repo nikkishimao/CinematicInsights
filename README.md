@@ -1,1 +1,1 @@
-# CinematicInsights
+# Cinematic Insights
