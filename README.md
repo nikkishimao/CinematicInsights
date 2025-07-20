@@ -4,6 +4,11 @@
 
 <p>In this mini project, Cinematic Insights, a merged dataset of movie details and user ratings is analyzed to uncover certain trends and insights into the data that can be used to make one’s own decisions about watching specific movies. Initially the two data sets, movies and ratings, which are sourced from Kaggle, are imported, cleaned, and reformatted. The movies data set is reformatted so that it was more visually pleasing, the release year was extracted to become its own column, and some unnecessary characters were removed. The ratings data set was cleaned by ensuring that there were no duplicate ratings, and its timestamps were converted to datetimes and saved as a new column. These two datasets were merged on a common movieId to tackle three key analyses. The first is to identify the highest rated movies in the Drama/Romance genre. The second is to compare the first and last ratings of the movies in order to highlight those with significant rating increases. Lastly, this project examines User 19’s ratings by calculating their average rating, lists their 5-star movies, and identifies their lowest rated films. Overall, this project provides valuable tools for movie enthusiasts to make informed viewing choices whether it’s based on the genre they prefer, how certain movies’ ratings improved over time, or the personal recommendations of a specific user.</p>
 
+<h3>Full Code and Conclusions in more Detail</h3>
+<ul>
+  <li><a href="miniproject_shimao.ipynb">Full Code Breakdown</a></li>
+</ul>
+
 <h2>Part 1: Data Cleansing</h2>
 
 <p>In Part 1 of this project, the two datasets (movies and ratings) were imported and cleaned for analysis. The movie data was initially checked for data types, missing values, and duplicates. The genres column, which originally used the (|) character, was reformatted to use commas instead. Additionally, the year was extracted from the movie title and stored in a new column, while the year was removed from the title itself. The display settings were adjusted to ensure that the movie data could be viewed clearly.
