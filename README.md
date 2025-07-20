@@ -6,7 +6,7 @@
 
 <h3>Full Code and Conclusions in more Detail</h3>
 <ul>
-  <li><a href="miniproject_shimao.ipynb">Full Code Breakdown</a></li>
+  <li><a href="code/miniproject_shimao.ipynb">Full Code Breakdown</a></li>
 </ul>
 
 <h2>Part 1: Data Cleansing</h2>
